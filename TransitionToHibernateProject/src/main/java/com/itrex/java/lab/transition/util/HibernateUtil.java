@@ -1,4 +1,4 @@
-package com.itrex.java.lab.util;
+package com.itrex.java.lab.transition.util;
 
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;

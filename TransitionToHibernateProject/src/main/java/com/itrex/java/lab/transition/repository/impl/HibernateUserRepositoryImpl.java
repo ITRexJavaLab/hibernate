@@ -1,7 +1,7 @@
-package com.itrex.java.lab.repository.impl;
+package com.itrex.java.lab.transition.repository.impl;
 
-import com.itrex.java.lab.entity.User;
-import com.itrex.java.lab.repository.UserRepository;
+import com.itrex.java.lab.transition.entity.User;
+import com.itrex.java.lab.transition.repository.UserRepository;
 import org.hibernate.Session;
 
 import java.math.BigInteger;

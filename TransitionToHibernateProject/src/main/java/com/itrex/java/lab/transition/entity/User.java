@@ -1,4 +1,4 @@
-package com.itrex.java.lab.entity;
+package com.itrex.java.lab.transition.entity;
 
 import javax.persistence.*;
 import java.sql.Timestamp;

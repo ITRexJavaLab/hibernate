@@ -1,20 +1,15 @@
-package com.itrex.java.lab;
+package com.itrex.java.lab.transition;
 
-import static com.itrex.java.lab.properties.Properties.H2_PASSWORD;
-import static com.itrex.java.lab.properties.Properties.H2_URL;
-import static com.itrex.java.lab.properties.Properties.H2_USER;
-
-import com.itrex.java.lab.entity.User;
-import com.itrex.java.lab.repository.UserRepository;
-import com.itrex.java.lab.repository.impl.HibernateUserRepositoryImpl;
-import com.itrex.java.lab.repository.impl.JDBCUserRepositoryImpl;
-import com.itrex.java.lab.service.FlywayService;
+import com.itrex.java.lab.transition.entity.User;
+import com.itrex.java.lab.transition.repository.UserRepository;
+import com.itrex.java.lab.transition.repository.impl.HibernateUserRepositoryImpl;
+import com.itrex.java.lab.transition.service.FlywayService;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.itrex.java.lab.util.HibernateUtil;
+import com.itrex.java.lab.transition.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

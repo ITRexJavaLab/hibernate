@@ -1,6 +1,6 @@
-package com.itrex.java.lab.repository;
+package com.itrex.java.lab.transition.repository;
 
-import com.itrex.java.lab.entity.User;
+import com.itrex.java.lab.transition.entity.User;
 import java.util.List;
 
 public interface UserRepository {

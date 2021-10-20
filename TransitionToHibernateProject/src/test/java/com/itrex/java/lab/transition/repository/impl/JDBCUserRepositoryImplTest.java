@@ -1,11 +1,12 @@
-package com.itrex.java.lab.repository.impl;
+package com.itrex.java.lab.transition.repository.impl;
 
 import static org.junit.Assert.assertFalse;
 
-import com.itrex.java.lab.entity.User;
-import com.itrex.java.lab.repository.BaseRepositoryTest;
-import com.itrex.java.lab.repository.UserRepository;
+import com.itrex.java.lab.transition.entity.User;
+import com.itrex.java.lab.transition.repository.BaseRepositoryTest;
+import com.itrex.java.lab.transition.repository.UserRepository;
 import java.util.List;
+
 import org.junit.Test;
 
 public class JDBCUserRepositoryImplTest extends BaseRepositoryTest {
