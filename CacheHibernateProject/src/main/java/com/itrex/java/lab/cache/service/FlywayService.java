@@ -1,11 +1,8 @@
-package com.itrex.java.lab.service;
-
-import static com.itrex.java.lab.properties.Properties.H2_PASSWORD;
-import static com.itrex.java.lab.properties.Properties.H2_URL;
-import static com.itrex.java.lab.properties.Properties.H2_USER;
-import static com.itrex.java.lab.properties.Properties.MIGRATIONS_LOCATION;
+package com.itrex.java.lab.cache.service;
 
 import org.flywaydb.core.Flyway;
+
+import static com.itrex.java.lab.cache.properties.Properties.*;
 
 public class FlywayService {
 

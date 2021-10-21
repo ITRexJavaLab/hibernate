@@ -1,4 +1,4 @@
-package com.itrex.java.lab.properties;
+package com.itrex.java.lab.cascade.properties;
 
 public class Properties {
 

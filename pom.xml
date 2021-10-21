@@ -11,6 +11,8 @@
     <modules>
         <module>TransitionToHibernateProject</module>
         <module>BaseHibernateMappingProject</module>
+        <module>CacheHibernateProject</module>
+        <module>CascadeHibernateProject</module>
     </modules>
 
     <properties>
